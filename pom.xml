@@ -17,6 +17,7 @@
 
     <modules>
         <module>antass-dependencies</module>
+        <module>antass-dubbo-api</module>
         <module>antass-authorization</module>
         <module>antass-personnel</module>
     </modules>
@@ -51,6 +52,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.3.2.RELEASE</version>
             </plugin>
         </plugins>
     </build>
